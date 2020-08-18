@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">-->
+<title>KubeEdge</title>
+<link rel="stylesheet" href="index.css">
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>-->
+<!--<script type="text/javascript">
+//$('html').width(screen.width);
+$(function(){
+$(window).resize(function(){
+$("#main-container").css("min-height", $(window).height() - 343);
+}).resize();
+})
+
+
+//console.log($('html').height());
+</script>-->
+
+</head>
+<body bgcolor="#F5F5F5">
+<div id="show">
+
+<!--<script>
+$(function(){
+  var w = $(window).width();
+  var h = $(window).height();
+  //$(“#show”).html(w+”:“+h);
+  //document.getElementById("show").innerHTML = w;
+  //document.getElementById("show").innerHTML = h ;
+
+  var browser_width = $(window).width();
+  $("div.show").css("width",browser_width);
+  $(window).resize(function() {
+    browser_width = $(window).width();
+    $("div.show").css("width",browser_width);
+    $("div.kube").css("width",browser_width);
+    $("button.start").css("width",browser_width);
+    //document.getElementById("show").innerHTML = browser_width;
+  });
+});
+
+</script>-->
+
+<style>
+.btn {
+  position: absolute;
+  top: 960px;
+  left:1500px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #104E8B;
+  color: white;
+  font-size: 40px;
+  padding: 28px 250px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+</style>
+
+
+<div class="center">
+      <img src="kube.png">
+</div>
+
+<!--<script>
+$(function(){
+  //var w = $(window).width();
+  //var h = $(window).height();
+  //$('div').width(screen.width * 0.3);
+  //$(“#show”).html(w+”:“+h);
+  //document.getElementById("show").innerHTML = w;
+  //document.getElementById("show").innerHTML = h ;
+});
+
+</script>-->
+
+<button class="btn" onclick="location.href='control.html'">Start</button>
+<div class="bar">
+      <img src="name.png" class="name">
+</div>
+</div>
+</body>
+
+</html>
+
+
